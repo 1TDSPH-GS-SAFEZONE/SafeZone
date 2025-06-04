@@ -13,6 +13,7 @@
         <a href="../index.html" style="text-decoration: none;">
           <div class="logo">Safe<span>Zone</span></div>
         </a>
+        <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
         <nav>
           <a href="../index.html">Início</a>
           <a href="sobre.html" class="active">Sobre</a>
@@ -145,5 +146,20 @@
       © 2025 SafeZone. Todos os direitos reservados.
     </div>
   </footer>
+
+  <script>
+    // Menu responsivo mobile
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.header-bar nav');
+    menuToggle.addEventListener('click', function() {
+      nav.classList.toggle('open');
+    });
+    // Fecha o menu ao clicar em um link (mobile)
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('open');
+      });
+    });
+  </script>
 </body>
 </html>
