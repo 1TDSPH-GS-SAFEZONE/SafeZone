@@ -658,3 +658,25 @@ body {
     max-width: 100%;
   }
 }
+
+.btn-pdf {
+  display: inline-block;
+  background: #ffa726;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.08rem;
+  border: none;
+  border-radius: 22px;
+  padding: 14px 38px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 12px;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 4px 16px #0002;
+  cursor: pointer;
+}
+.btn-pdf:hover, .btn-pdf:focus {
+  background: #ffb74d;
+  color: #263238 !important;
+  text-decoration: none;
+}
