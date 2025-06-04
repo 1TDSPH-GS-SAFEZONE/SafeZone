@@ -801,25 +801,25 @@ body {
   object-fit: cover;
   border-radius: 50%;
 }
+.team-name, .team-role, .team-rm, .team-email, .team-links {
+  text-align: center;
+}
 .team-name {
   font-size: 1.18rem;
   font-weight: bold;
   color: #263238;
   margin: 0 0 2px 0;
-  text-align: center;
 }
 .team-role {
   font-size: 0.98rem;
   color: #2196f3;
   font-weight: 600;
   margin-bottom: 2px;
-  text-align: center;
 }
 .team-rm {
   font-size: 0.93rem;
   color: #607d8b;
   margin-bottom: 10px;
-  text-align: center;
 }
 .team-links {
   display: flex;
@@ -838,21 +838,12 @@ body {
   background: #2196f3;
   transition: background 0.2s;
 }
-.btn-social.github {
-  background: #24292f;
-}
-.btn-social.linkedin {
-  background: #0077b5;
-}
-.btn-social.github:hover {
-  background: #444d56;
-}
-.btn-social.linkedin:hover {
-  background: #005983;
-}
+.btn-social.github { background: #24292f; }
+.btn-social.linkedin { background: #0077b5; }
+.btn-social.github:hover { background: #444d56; }
+.btn-social.linkedin:hover { background: #005983; }
 .team-email {
   margin: 0 0 8px 0;
-  text-align: center;
 }
 .team-email a {
   color: #2196f3;
