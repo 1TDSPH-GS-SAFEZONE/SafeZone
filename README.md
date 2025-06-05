@@ -57,6 +57,14 @@ As funcionalidades do SafeZone são divididas em épicos (módulos principais):
 
 ---
 
+## 🌐 Repositório no GitHub
+
+Acesse o código-fonte, contribua e acompanhe o desenvolvimento do projeto diretamente no nosso repositório oficial:
+
+[https://github.com/1TDSPH-GS-SAFEZONE/SafeZone](https://github.com/1TDSPH-GS-SAFEZONE/SafeZone)
+
+---
+
 ## 🚀 Vamos juntos salvar vidas!
 
 Sinta-se à vontade para explorar, colaborar e aprender com este projeto. Qualquer dúvida ou sugestão, abra uma issue ou envie um pull request.

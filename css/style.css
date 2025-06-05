@@ -1038,3 +1038,46 @@ body {
     height: 40px;
   }
 }
+
+/* Seção de contribuição - contrib-section */
+.contrib-section {
+  background: #f5f7fa;
+  padding: 40px 0;
+  text-align: center;
+  margin: 40px 0 0 0;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.04);
+}
+.contrib-title {
+  font-size: 2.1rem;
+  color: #1a355d;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.contrib-desc {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 24px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta-btn.contrib-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #1a355d 60%, #3eb7e9 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 14px 38px;
+  border-radius: 32px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px 0 rgba(30,60,120,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-top: 8px;
+  letter-spacing: 0.5px;
+}
+.cta-btn.contrib-btn span {
+  vertical-align: middle;
+  margin-right: 8px;
+  font-size: 1.3em;
+}
