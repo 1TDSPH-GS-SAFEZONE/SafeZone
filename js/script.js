@@ -40,4 +40,17 @@ document.addEventListener('DOMContentLoaded', function() {
       }, 3500);
     });
   }
+
+  var btnCadastro1 = document.getElementById('go-to-cadastro');
+  if (btnCadastro1) {
+    btnCadastro1.addEventListener('click', function() {
+      window.location.href = 'assets/faq.html#cadastro';
+    });
+  }
+  var btnCadastro2 = document.getElementById('go-to-cadastro-2');
+  if (btnCadastro2) {
+    btnCadastro2.addEventListener('click', function() {
+      window.location.href = 'assets/faq.html#cadastro';
+    });
+  }
 });
