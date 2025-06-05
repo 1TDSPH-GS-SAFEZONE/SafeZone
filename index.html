@@ -82,7 +82,7 @@
         <li>Guias de segurança completos com orientações práticas para emergências.</li>
         <li>Funcionalidade offline garante alertas mesmo sem conexão à internet.</li>
       </ul>
-      <button class="cta-btn">Quero me Proteger</button>
+      <button class="cta-btn" id="go-to-cadastro">Quero me Proteger</button>
     </div>
   </section>
 
@@ -158,5 +158,10 @@
     </div>
   </footer>
   <script src="js/script.js"></script>
+  <script>
+    document.getElementById('go-to-cadastro').addEventListener('click', function() {
+      window.location.href = 'assets/faq.html#cadastro';
+    });
+  </script>
 </body>
 </html>
